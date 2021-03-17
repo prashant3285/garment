@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>3D Test</title>
+    <link rel="stylesheet" href="garment.css">
+</head>
+
+<body>
+    <div id="holder">
+        <!-- <div id="text">
+            <h1 class="sample-text">Garment Display Demo</h1>
+            <h1 class="sample-text">KAMLATECH</h1>
+        </div> -->
+        <div id="model">
+            <model-viewer src="shirt.glb" alt="Garment 3D" auto-rotate="" camera-controls="" background-color="#455A64"></model-viewer>
+        </div>
+    </div>
+
+    <!-- Loads model-viewer for modern browsers -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <!-- Loads model-viewer for older browsers -->
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</body>
+
+</html>
